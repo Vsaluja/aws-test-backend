@@ -41,6 +41,11 @@ app.get("/api/users", (req, res) => {
       name: "Mike Johnson",
       role: "Manager",
     },
+    {
+      id: 4,
+      name: "Shawn White",
+      role: "Devops Engineer",
+    },
   ]);
 });
 
@@ -61,6 +66,11 @@ app.get("/api/products", (req, res) => {
       id: 3,
       name: "Headphones",
       price: 150,
+    },
+    {
+      id: 4,
+      name: "Computer",
+      price: 200,
     },
   ]);
 });
